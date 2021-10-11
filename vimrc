@@ -1,6 +1,7 @@
 " -----------------------------------------------------------------------------
 " Vundle for plugin management
 " git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" :PluginInstall
 
 set nocompatible
 filetype off
@@ -25,6 +26,7 @@ set ruler                       " show the cursor position all the time
 set backspace=indent,eol,start
 set showmode                    " show the current mode
 set clipboard=unnamed           " access system clipboard
+set guifont=Consolas:h12:cANSI:qDRAFT
 
 syntax on                       " turn syntax highlighting on by default
 colorscheme torte
