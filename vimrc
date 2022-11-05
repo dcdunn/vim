@@ -14,6 +14,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'      " syntax checking
 Plugin 'nvie/vim-flake8'              " PEP8 checking
 Plugin 'tpope/vim-fugitive'           " git
+Plugin 'jremmen/vim-ripgrep'          " vim-ripgrep
 
 call vundle#end()
 filetype plugin indent on
