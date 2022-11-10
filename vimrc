@@ -27,7 +27,9 @@ set ruler                       " show the cursor position all the time
 set backspace=indent,eol,start
 set showmode                    " show the current mode
 set clipboard=unnamed           " access system clipboard
-set guifont=Consolas:h12:cANSI:qDRAFT
+if has('win32')
+    set guifont=Consolas:h12:cANSI:qDRAFT
+endif
 
 syntax on                       " turn syntax highlighting on by default
 colorscheme torte
